@@ -1,0 +1,5 @@
+Book - The Rust Programming Language Book - by Carol Nichols and Steve Klabnik
+Web-site - https://www.rust-lang.org/
+Manual - https://doc.rust-lang.org/reference/index.html
+Community - https://www.rust-lang.org/community
+Library of large rust projects - https://github.com/rust-unofficial/awesome-rust
