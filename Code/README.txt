@@ -17,7 +17,4 @@ all of the code snippets except for the p2_if are commented out. This was to avo
 and the infinite loop example which can be quit by hitting ctrl_c. To see each example run on its own simply comment
 out the snippet just run and uncomment the snippet you wish to run. Then do cargo run and it should be fine.
 
-To make running the snippets easier i have included a p2_snippets folder that has all the needed information to run
-in visual code studio using cargo run and cargo build.
-
 I added a folder called p2 that holds the example program for milestone 2.
