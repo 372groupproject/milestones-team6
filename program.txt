@@ -1,0 +1,6 @@
+Our program will check if a something is an anagram in a few different ways. The program will likely be around 100 lines of code or so. With various functions that go through whatever data structure it is given.
+Rust is a very unique language in that it offers a lot in how you can implement any given program. As a default it is much like java in terms of safety but allows the level of control that C does if the user wants. 
+The goal of Rust is to make a langauge that is safe, fast, and efficent. In order to show this uniqueness in a program of 210 level complexity I think we likely need to show the various ways in which Rust 
+could solve the problem of an anagram. So rather than have a single program that solves the Anagram we want to have 2 or so different ways to approach the problem to showcase the flexibilty that Rust offers.
+Our main will likely have 2 different imported programs anagram1 and anagram2, potentially more if we find more ways to solve the problem. Our main will take in user input and pass it to the other programs to
+solve for themselves. The goal is to hopefully show how much Rust has to offer and despite being a statically and strongly typed language show how flexible it is. Rust is fast, safe, and easy to write.
