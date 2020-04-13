@@ -18,3 +18,5 @@ and the infinite loop example which can be quit by hitting ctrl_c. To see each e
 out the snippet just run and uncomment the snippet you wish to run. Then do cargo run and it should be fine.
 
 I added a folder called p2 that holds the small example program for milestone 2.
+
+The p3 folder contains the code snippets for milestone 3.
