@@ -1,0 +1,14 @@
+*Theme: Will go over two different implementations of anagram to show
+	off ownership.
+*The main ideas we want to get across is ownership. It is the most unique aspect of rust
+	in that it handles memory managment in a way no other language does. 
+
+*The two code samples we want to show are anagrams done with types and with 
+	literals to show how the rules of ownership differ for both. 
+
+*The demo of the programs will be a close look at each implmentation and how they
+	pass variables around. The main goal is to cover all the rules of ownership
+	and how they differ for literals and types. 
+
+*Most likely we will just do a screen capture of the two programs with some text defining
+	what we are talking about.
