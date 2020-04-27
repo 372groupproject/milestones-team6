@@ -21,16 +21,25 @@ fn main(){
         Err(e) => println!("Something went wrong {}", e)
     }
 
-    //Pass in the two strings as lowercase string types. 
-    anagram(&mut input1.to_lowercase(), &mut input2.to_lowercase());
+    //Pass in the two strings as string types. 
+    anagram(input1,input2);
+
+    // INVALID PRINT
+    // println!("are {} and {} anagrams?", input1, input2);
+    //Call to anagram tranfered ownership to anagram. Can be fixed by changing anagram to
+    //anagram(input: &mut String, input2: &mut String)
+    //OR
+    //(input: String, input2: String) -> (String, String) we can return both inputs back to main and then main
+    //could print them
+    
     
 }
 
-pub fn anagram(input: &mut String, input2: &mut String){
+pub fn anagram(input: String, input2: String){
    
     //Replace all spaces with null in strings
-    let s = input.replace(" ", "");
-    let x = input2.replace(" ", "");
+    let s = input.to_lowercase().replace(" ", "");
+    let x = input2.to_lowercase().replace(" ", "");
     //Convert the strings into arrays of their byte values
     let mut arr = s.into_bytes();
     let mut arr2 = x.into_bytes();
